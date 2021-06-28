@@ -31,13 +31,13 @@ body {
 
 .card {
   width: 25.3%;
-  min-height: 65vh;
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   padding: 3.3vmax;
 }
 .card > div {
-  margin-bottom: 70em;
+  margin-bottom: 80em;
 }
 .card:nth-child(1) {
   background-color: var(--bkg-sedan);
@@ -70,7 +70,7 @@ body {
 }
 
 .card-inner-wrapper {
-  height: 65%;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
